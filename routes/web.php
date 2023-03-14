@@ -18,3 +18,4 @@ Route::resource('/', \App\Http\Controllers\Main\AdminController::class);
 Route::resource('category', \App\Http\Controllers\CategoryController::class);
 Route::resource('tag', \App\Http\Controllers\TagController::class);
 Route::resource('color', \App\Http\Controllers\ColorController::class);
+Route::resource('user', \App\Http\Controllers\UserController::class);
